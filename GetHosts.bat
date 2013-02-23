@@ -1,3 +1,4 @@
+:more see https://github.com/wangxuyang/hosts
 @echo off
 copy %0  "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
 nslookup  www.google.cn  8.8.8.8 > google.txt
